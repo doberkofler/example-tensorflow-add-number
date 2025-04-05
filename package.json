@@ -1,27 +1,24 @@
 {
-	"name": "tensorflow",
+	"name": "example-tensorflow-add-number",
 	"version": "1.0.0",
-	"description": "",
-	"main": "index.js",
+	"description": "A basic example for TensorFlow",
 	"type": "module",
+	"license": "MIT",
 	"scripts": {
 		"lint": "tsc && eslint .",
 		"train": "node --experimental-transform-types src/add-numbers/train-model.ts",
-		"predict": "node --experimental-transform-types src/add-numbers/predict.ts",
-		"test": "node --experimental-transform-types src/add-numbers.ts"
+		"predict": "node --experimental-transform-types src/add-numbers/predict.ts"
 	},
-	"author": "",
-	"license": "ISC",
 	"dependencies": {
-		"@eslint/js": "9.23.0",
+		"@eslint/js": "9.24.0",
 		"@tensorflow/tfjs": "4.22.0",
 		"@tensorflow/tfjs-node": "^4.22.0",
-		"@types/node": "22.13.13",
-		"@typescript-eslint/eslint-plugin": "8.28.0",
-		"@typescript-eslint/parser": "8.28.0",
-		"eslint": "9.23.0",
+		"@types/node": "22.14.0",
+		"@typescript-eslint/eslint-plugin": "8.29.0",
+		"@typescript-eslint/parser": "8.29.0",
+		"eslint": "9.24.0",
 		"prettier": "3.5.3",
-		"typescript": "5.8.2",
-		"typescript-eslint": "8.28.0"
+		"typescript": "5.8.3",
+		"typescript-eslint": "8.29.0"
 	}
 }
