@@ -1,8 +1,10 @@
 # A basic example for TensorFlow
 
 # Install
-npm i
+
+- npm i
 
 # Run
-npm run train
-npm run predict
+
+- npm run train
+- npm run predict
